@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    tools:context="com.example.Activity.AccountActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/b002" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="17dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_left_back"
+        android:clickable="true"
+        android:onClick="onClick" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="210dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/shape_login_form"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="43dp"
+            android:paddingRight="31dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="114dp"
+                    android:layout_height="111dp"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#BEA6E3"
+                    android:textSize="22dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:text="  回到主界面"
+        android:drawableRight="@drawable/right2"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/backToLogin"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:drawableRight="@drawable/right2"
+        android:text="  退出当前账号"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+</RelativeLayout>

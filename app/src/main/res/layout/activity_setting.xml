@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    tools:context="com.example.Activity.SettingActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/blank"
+        android:gravity="center|center_vertical"
+        android:text="设 置"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/account"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  账号与安全"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/manage"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  设备管理"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/privilege"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  权限"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/function"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  通用"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/mode"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  勿扰模式"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:text="退出登录"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+</RelativeLayout>

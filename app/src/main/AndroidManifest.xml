@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取网络状态，根据网络状态切换进行数据请求网络转换 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 写外置存储。如果开发者使用了离线地图，并且数据写在外置存储区域，则需要申请该权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 访问网络，进行地图相关业务数据请求，包括地图数据，路线规划，POI检索等 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 写外置存储。如果开发者使用了离线地图，并且数据写在外置存储区域，则需要申请该权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="cDfQWR4O2R91yP3G4ouzVocoQndiP2Y3" />
+
+        <activity
+            android:name="com.example.Activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.Activity.RegisterActivity" />
+        <activity android:name="com.example.Activity.MainActivity" />
+        <activity android:name="com.example.Activity.AboutActivity" />
+        <activity android:name="com.example.Activity.BrochureActivity" />
+        <activity android:name="com.example.Activity.CollectActivity" />
+        <activity android:name="com.example.Activity.FeedbackActivity" />
+        <activity android:name="com.example.Activity.IdentifyActivity" />
+        <activity android:name="com.example.Activity.SettingActivity" />
+        <activity android:name="com.example.Activity.ServiceActivity" />
+        <activity android:name="com.example.Activity.PrivacyActivity" />
+        <activity android:name="com.example.Activity.AccountActivity" />
+        <activity android:name="com.example.Activity.ModeActivity" />
+        <activity android:name="com.example.Activity.ManageActivity" />
+        <activity android:name="com.example.Activity.FunctionActivity" />
+        <activity android:name="com.example.Activity.TextActivity" />
+        <activity android:name="com.example.Activity.CleanActivity" />
+        <activity android:name="com.example.Activity.PrivilegeActivity" />
+        <activity android:name="com.example.Activity.DisplayActivity" />
+    </application>
+
+</manifest>

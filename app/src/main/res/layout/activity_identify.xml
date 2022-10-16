@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    tools:context="com.example.Activity.IdentifyActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/blank"
+        android:gravity="center|center_vertical"
+        android:text="身份验证"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="0dp"
+        android:background="#DCDBDB"
+        android:textAllCaps="false"
+        android:src="@drawable/ic_baseline_settings_power_24" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="108dp"
+        android:background="@drawable/button_selector"
+        android:text="点击验证"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:background="#888888"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp">
+
+            <ToggleButton
+                android:id="@+id/cnn_lstm"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/button_selector"
+                android:textOff="CNN+LSTM"
+                android:textOn="CNN+LSTM"
+                android:textSize="24dp"></ToggleButton>
+
+            <ToggleButton
+                android:id="@+id/dl_lstm"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"
+                android:textOff="DL-LSTM"
+                android:textOn="DL-LSTM"
+                android:textSize="24dp"></ToggleButton>
+
+            <ToggleButton
+                android:id="@+id/Fourier"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"
+                android:textOff="Fourier"
+                android:textOn="Fourier"
+                android:textSize="24dp"></ToggleButton>
+
+            <ToggleButton
+                android:id="@+id/CNN"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"
+                android:textOff="CNN"
+                android:textOn="CNN"
+                android:textSize="24dp"></ToggleButton>
+
+            <ToggleButton
+                android:id="@+id/Wavelet"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"
+                android:textOff="Wavelet"
+                android:textOn="Wavelet"
+                android:textSize="24dp"></ToggleButton>
+
+            <ToggleButton
+                android:id="@+id/IdNet"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"
+                android:textOff="IdNet"
+                android:textOn="IdNet"
+                android:textSize="24dp"></ToggleButton>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

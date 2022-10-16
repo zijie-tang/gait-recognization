@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    tools:context="com.example.Activity.TextActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/blank"
+        android:gravity="center|center_vertical"
+        android:text="字体大小"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:text="      拖动下面滑块，可以设置字体大小。\n      设置后可改变主体部分的字体大小。如果在使用过程中存在问题或意见，可以反馈给步态身份识别团队。"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:text="\n中"
+        android:textSize="24dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="\n大"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:text="\n小"
+        android:textSize="24dp" />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:max="100"
+        android:progress="50" />
+</RelativeLayout>

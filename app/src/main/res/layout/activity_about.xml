@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    android:orientation="vertical"
+    tools:context="com.example.Activity.AboutActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/blank"
+        android:gravity="center|center_vertical"
+        android:text="关于应用"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="应用开发日期：2022/4/10"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="120dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/ic_launcher" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/AboutActivity_back"
+        android:layout_width="10dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/back"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/edition"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  检查新版本"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  服务协议"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/privacy"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  隐私权政策"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+</RelativeLayout>

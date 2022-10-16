@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Activity.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/person" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="323dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/setting" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="403dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/brochure" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="563dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/about" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="483dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/feedback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="50dp"
+        android:text="Gait Recognize"
+        android:textColor="#BEA6E3"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/button_shape2"
+        android:text="设置"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/brochure"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/button_shape2"
+        android:text="手册"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/button_shape2"
+        android:text="反馈"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/button_shape2"
+        android:text="关于"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/collection"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/button_shape"
+        android:text="数据采集"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/identification"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/button_shape2"
+        android:text="身份验证"
+        android:textColor="@color/app_color_theme_8"
+        android:textSize="22sp" />
+
+</RelativeLayout>

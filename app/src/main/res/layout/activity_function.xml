@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    tools:context="com.example.Activity.FunctionActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/blank"
+        android:gravity="center|center_vertical"
+        android:text="通 用"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/TextSize"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="0dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  字体大小"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Clean"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="0dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/right2"
+        android:gravity="left|center_vertical"
+        android:text="  一键清理"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="0dp"
+        android:background="#ffffff"
+        android:gravity="left|center_vertical"
+        android:text="  系统通知栏显示图标"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Switch
+        android:id="@+id/IconSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="260dp" />
+
+</RelativeLayout>

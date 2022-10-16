@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    tools:context="com.example.Activity.CleanActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/blank"
+        android:gravity="center|center_vertical"
+        android:text="一键清理"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="420dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center|top"
+        android:background="#ffffff"
+        android:text="\n可安全清理空间"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/mtv_getCache"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center|top"
+        android:text="313"
+        android:textColor="@color/purple_200"
+        android:textSize="48sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="left|top"
+        android:background="#ffffff"
+        android:text="一键清理将删除本地的缓存数据，以释放更多的空间。\n注：被删除的内容仅是本地缓存，云端备份的内容仍然存在。"
+        android:textColor="#686767"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="108dp"
+        android:background="@drawable/circle_botton"
+        android:text="清理"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+</RelativeLayout>

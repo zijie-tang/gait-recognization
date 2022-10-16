@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E2E2"
+    tools:context="com.example.Activity.PrivacyActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="420dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/back"
+        android:drawableRight="@drawable/blank"
+        android:gravity="center|center_vertical"
+        android:text="隐私权政策"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/shape_login_form"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:text="发布日期：2022年4月23日\n生效日期：2022年4月30日\n"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:text="      您的信任对我们非常重要，我们深知个人信息对您的重要性，我们将按法律法规要求，采取相应安全保护措施，尽力保护您的个人信息安全可控。鉴于此，“步态身份识别”服务提供者（或简称“我们”）制定本《隐私权政策》（下称“本政策/本隐私权政策”）并提醒您："
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="\n      本政策适用于“步态身份识别”提供的所有产品和服务，包括但不限于电脑端、移动智能终端、车载端等的应用程序、网页、供第三方网站和应用程序使用的软件开发工具包（SDK）和应用程序编程接口（API）以及不断创新研发的产品及服务。如您使用“步态身份识别”提供的某项或某几项服务有其单独的隐私权政策的，该等服务对应的隐私权政策将与本隐私权政策一起构成一套完整的隐私权政策。\n"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:text="      需要特别说明的是，本政策不适用于其他第三方向您提供的服务，为确保流畅的产品体验，您可能会收到来自第三方提供的内容或网络链接。请您谨慎选择是否访问第三方提供的链接、内容、产品和服务。在向第三方提交个人信息之前，请认真阅读这些第三方的隐私政策。\n"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="      在使用我们各项产品或服务前，请您务必仔细阅读并透彻理解本政策。特别是以粗体/粗体下划线标识的条款，请您重点阅读，在确认充分理解并同意后再开始使用。"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="\n地址：电子科技大学清水河校区。             \n电话：13340887833\n（完）\n\n\n\n\n"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
