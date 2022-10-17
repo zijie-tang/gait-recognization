@@ -14,7 +14,7 @@ Utilize SQLite database, local storage and sensor data acquisition to realize ba
 
 The login module consists of two parts: login in and sign up.
 
-<img src="images/signup.png" width="500">
+<img src="images/signin.png" width="400">
 
 ## collection
 
@@ -26,28 +26,28 @@ Collect mobile phone accelerometer data and plot the waveform.
 
 Utilize different models to classify the user.
 
-<img src="images/authenication.png" width="500">
+<img src="images/authenication.png" width="200">
 
 ## setting
 
 Setting the information of this APP.
 
-<img src="images/setting.png" width="500">
+<img src="images/setting.png" width="200">
 
 ## brochure
 
 Introduction of how to use this APP.
 
-<img src="images/brochure.png" width="500">
+<img src="images/brochure.png" width="200">
 
 ## feedback
 
 User can feedback some feelings.
 
-<img src="images/feedback.png" width="500">
+<img src="images/feedback.png" width="200">
 
 ## about
 
 APP version information and release information.
 
-<img src="images/about.png" width="500">
+<img src="images/about.png" width="200">
