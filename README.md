@@ -51,3 +51,10 @@ User can feedback some feelings.
 APP version information and release information.
 
 <img src="images/about.png" width="200">
+
+# Author
+
+- Zijie Tang
+- zijietang0316@gmail.com
+- [GitHub](https://github.com/zijietang0316)
+- [LinkedIn](https://www.linkedin.com/in/zijie-tang-4ba81b240/)
