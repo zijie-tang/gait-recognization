@@ -3,6 +3,7 @@
 Utilize SQLite database, local storage and sensor data acquisition to realize back-end functions. The front-end interface uses multi-component and nested methods to realize a more friendly interactive interface.
 
 - [signin](#signin)
+- [main](#main)
 - [collection](#collection)
 - [authenication](#authenication)
 - [setting](#setting)
@@ -15,6 +16,12 @@ Utilize SQLite database, local storage and sensor data acquisition to realize ba
 The login module consists of two parts: login in and sign up.
 
 <img src="images/signin.png" width="400">
+
+## main
+
+The main interface of the app, including 6 functions
+
+<img src="images/main.png" width="400">
 
 ## collection
 
