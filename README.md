@@ -21,7 +21,7 @@ The login module consists of two parts: login in and sign up.
 
 The main interface of the app, including 6 functions
 
-<img src="images/main.png" width="400">
+<img src="images/main.png" width="200">
 
 ## collection
 
